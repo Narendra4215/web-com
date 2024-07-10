@@ -1,5 +1,5 @@
 "use client";
-
+import './page.scss';
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
@@ -12,7 +12,7 @@ const Home = () => {
         <h1 className="text-3xl font-bold">Welcome to Our Website</h1>
       </header>
       <section className="w-full max-w-4xl mx-auto mt-8 text-center">
-        <h2 className="text-2xl font-semibold mb-4">Explore Our Features</h2>
+        <h2 className="text-2xl font-semibold mb-4">NS Features</h2>
         <p className="text-gray-700 mb-6">
           Discover a variety of features and services designed to enhance your experience. We offer solutions that cater to your needs.
         </p>
@@ -40,6 +40,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+
       <section className="w-full max-w-4xl mx-auto mt-8 text-center">
         <h2 className="text-2xl font-semibold mb-4">About Us</h2>
         <p className="text-gray-700 mb-6">
