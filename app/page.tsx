@@ -1,5 +1,4 @@
 "use client";
-import './page.scss';
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
